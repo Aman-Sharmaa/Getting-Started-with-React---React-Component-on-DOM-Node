@@ -1,2 +1,19 @@
-<p>Now I can render any React component on any DOM node I want using ReactDOM.render</p>
+import React, {Component, useState} from "react";
+import '../styles/App.css';
 
+class App extends Component {
+    constructor(props) {
+		super(props);
+	};
+
+    render() {
+    	return(
+    		<div id="root">
+		 
+    		</div>
+    	);
+    }
+}
+
+
+export default App;
