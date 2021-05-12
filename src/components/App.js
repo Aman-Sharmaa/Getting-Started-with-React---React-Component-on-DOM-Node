@@ -1,4 +1,17 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+// import React from 'react';
+// import ReactDOM from 'react-dom';
 
-ReactDOM.render(<p>Hello</p>, document.getElementById('root'));
+// ReactDOM.render(<p>Hello</p>, document.getElementById('root'));
+import React, {Component, useState} from "react";
+import '../styles/App.css';
+
+const App = () => {
+  return (
+    <div id="root">
+     <p>I am learning React. My life is getting better.</p> 
+    </div>
+  )
+}
+
+
+export default App;
