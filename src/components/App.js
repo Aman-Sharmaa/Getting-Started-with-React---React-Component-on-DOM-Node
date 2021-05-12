@@ -1,14 +1,15 @@
 // import React from 'react';
-// import ReactDOM from 'react-dom';
+
 
 // ReactDOM.render(<p>Hello</p>, document.getElementById('root'));
 import React, {Component, useState} from "react";
+import ReactDOM from 'react-dom';
 import '../styles/App.css';
 
 const App = () => {
   return (
     <div id="root">
-     <p>I am learning React. My life is getting better.</p> 
+     <p>Hello.</p> 
     </div>
   )
 }
